@@ -1,0 +1,74 @@
+
+// Body
+$body-bg: #f5f8fa;
+
+// Borders
+$laravel-border-color: darken($body-bg, 10%);
+$list-group-border: $laravel-border-color;
+$navbar-default-border: $laravel-border-color;
+$panel-default-border: $laravel-border-color;
+$panel-inner-border: $laravel-border-color;
+
+// Brands
+$brand-primary: #3097D1;
+$brand-info: #8eb4cb;
+$brand-success: #2ab27b;
+$brand-warning: #cbb956;
+$brand-danger:  #bf5329;
+
+// Typography
+$font-family-sans-serif: "Raleway", sans-serif;
+$font-size-base: 14px;
+$line-height-base: 1.6;
+$text-color: #636b6f;
+
+// Navbar
+$navbar-default-bg: #fff;
+
+// Buttons
+$btn-default-color: $text-color;
+
+// Inputs
+$input-border: lighten($text-color, 40%);
+$input-border-focus: lighten($brand-primary, 25%);
+$input-color-placeholder: lighten($text-color, 30%);
+
+// Panels
+$panel-default-heading-bg: #fff;
+
+// Custom Front Colors
+
+$header-background: #37474F;
+
+
+// Aston Variables //
+
+
+// Setting the basic color scheme
+
+$aston-main-background : #B0BEC5;
+
+$aston-theme-color : #37474F;
+
+$aston-theme-color-active : darken($aston-theme-color,7%) ;
+
+$aston-page-color : #fafafa;
+// Text Colors
+
+$aston-text-secondary: rgb(255,255,255);
+
+$aston-text-sidebar: #fff;
+
+$aston-empty-message-text: #aaa;
+
+// Media query break points
+
+$pc : '(min-width: 1200px)';
+
+$table : '(min-width:401px and max-width:1199px)';
+
+$mobile : '(max-width: 400px)';
+
+// Component Variables
+
+$aston-sidebar-size:100px;

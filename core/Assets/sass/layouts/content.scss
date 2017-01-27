@@ -1,0 +1,24 @@
+.page{
+  position: relative;
+  width: 100%;
+  padding-left:$aston-sidebar-size;
+  background-color: $aston-page-color;
+  @media (max-width: $screen-sm-max){
+    padding-left: 0;
+  }
+}
+
+.content{
+  padding: 20px;
+  padding-top: 100px;
+  @media (max-width: $screen-xs-max){
+    padding-top: 150px;
+  }
+
+}
+
+/*******************88 Bootstrap Overrides ************/
+
+.page-header{
+  margin-top: 0;
+}
